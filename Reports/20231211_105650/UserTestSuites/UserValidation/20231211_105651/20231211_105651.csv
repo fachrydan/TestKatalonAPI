@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+UserValidation,,,,2023-12-11 10:56:53,2023-12-11 10:56:55,2.408s,PASSED
+,,,,,,,
+Test Cases/User/Validate User Details,,,,2023-12-11 10:56:53,2023-12-11 10:56:55,2.203s,PASSED
+"response = sendRequest(findTestObject(""User/GetUserDetails""))",,,,2023-12-11 10:56:53,2023-12-11 10:56:55,1.849s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2023-12-11 10:56:55,2023-12-11 10:56:55,0.012s,PASSED
+"verifyElementPropertyValue(response, ""data.email"", ""janet.weaver@reqres.in"")",,,,2023-12-11 10:56:55,2023-12-11 10:56:55,0.045s,PASSED
